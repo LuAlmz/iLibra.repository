@@ -76,7 +76,7 @@ def Repo():
     if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.docshadrach')):
         return
         
-    url = "https://github.com/XBMCSpot/docshadrach.repository/raw/master/zips/repository.docshadrach-1.0.zip"
+    url = "https://github.com/LuAlmz/iLibra.repository/blob/master/zips/repository.iLibra/repository.lualmz.zip"
     addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
     packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
     
@@ -117,7 +117,7 @@ if REMOTE_DBG:
         sys.exit(1)
 
 
-addon = xbmcaddon.Addon('plugin.video.adryanlist')
+addon = xbmcaddon.Addon('plugin.video.ilibratv')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
@@ -142,7 +142,7 @@ SOURCES = [{"url": "https://raw.githubusercontent.com/LuAlmz/iLibraTV/master/lis
 
 def addon_log(string):
     if debug == 'true':
-        xbmc.log("[addon.adryanlist-%s]: %s" %(addon_version, string))
+        xbmc.log("[addon.ilibratv-%s]: %s" %(addon_version, string))
 
 
 def makeRequest(url, headers=None):
