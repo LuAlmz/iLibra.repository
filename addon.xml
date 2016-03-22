@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.docshadrach" name="LuAlmz Addon" version="1.0" provider-name="LuAlmz">
+	<extension point="xbmc.addon.repository" name="LuAlmz addon 1.0">
+		<info compressed="false">https://github.com/LuAlmz/iLibra.repository/addons.xml</info>
+		<checksum>https://github.com/LuAlmz/iLibra.repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/LuAlmz/iLibra.repository/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Instala addons desde el repositorio de LuAlmz</summary>
+		<description>Pronto mas novedades.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
